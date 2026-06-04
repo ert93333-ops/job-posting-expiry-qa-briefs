@@ -24,6 +24,10 @@ The landing page includes pricing hypothesis, local purchase-intent capture, a p
 
 - [JobPosting structured data checklist](https://ert93333-ops.github.io/job-posting-expiry-qa-briefs/jobposting-structured-data-checklist.html)
 
+## Public marketing asset
+
+- [JobPosting structured data launch checklist Gist](https://gist.github.com/ert93333-ops/b01f1da5046ce994534a757c6d4989b2)
+
 ## Marketing test URLs
 
 - Landing: `https://ert93333-ops.github.io/job-posting-expiry-qa-briefs/?utm_source=github&utm_medium=repo&utm_campaign=job_posting_expiry_qa_launch`
