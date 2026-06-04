@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JobPosting structured data checklist | Job Posting Expiry QA Briefs</title>
+    <meta
+      name="description"
+      content="A practical JobPosting structured data checklist for required fields, validThrough, list-page markup risk, visible/schema parity, remote jobs, apply URLs, salary review, and owner handoff."
+    >
+    <link rel="canonical" href="https://ert93333-ops.github.io/job-posting-expiry-qa-briefs/jobposting-structured-data-checklist.html">
+    <meta property="og:title" content="JobPosting structured data checklist">
+    <meta property="og:description" content="Check JobPosting fields, expiry, list-page misuse, visible/schema parity, remote location, directApply, salary review, and owner remediation before launch.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ert93333-ops.github.io/job-posting-expiry-qa-briefs/jobposting-structured-data-checklist.html">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-product="Job Posting Expiry QA Briefs">
+    <header class="site-header is-scrolled">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="Job Posting Expiry QA Briefs home">
+          <span class="brand-mark" aria-hidden="true">JOB</span>
+          <span>Job Posting Expiry QA Briefs</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html#workflow">Auditor</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#waitlist">Early access</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section guide-hero">
+        <div class="shell narrow-shell">
+          <p class="eyebrow">Career-site SEO launch asset</p>
+          <h1>JobPosting structured data checklist</h1>
+          <p class="hero-subtitle">
+            Use this checklist before publishing job detail pages, ATS mirrors, remote job pages, job boards, and expired job cleanup updates.
+            It is designed for pasted-sample QA when crawling, Search Console, Rich Results Test, and ATS APIs are unavailable.
+          </p>
+          <a class="button primary" href="index.html#workflow">Audit sample JobPosting markup</a>
+        </div>
+      </section>
+
+      <article class="section guide-body">
+        <div class="shell narrow-shell">
+          <h2>1. Required JobPosting fields</h2>
+          <ul>
+            <li>Confirm the page has one JobPosting for one job detail page.</li>
+            <li>Confirm `title`, `description`, `datePosted`, `hiringOrganization`, `identifier`, and location handling are present.</li>
+            <li>Confirm the job is still open before leaving markup live.</li>
+          </ul>
+
+          <h2>2. validThrough and expiry</h2>
+          <ul>
+            <li>Confirm `validThrough` is present where the job has a close date.</li>
+            <li>Flag roles that are filled, paused, closed, or no longer accepting applicants.</li>
+            <li>Record who removes or updates expired JobPosting markup.</li>
+          </ul>
+
+          <h2>3. Page type</h2>
+          <ul>
+            <li>Use JobPosting markup on a single job detail page, not a search, list, category, or archive page.</li>
+            <li>Confirm canonical and sitemap handling for duplicate ATS mirrors.</li>
+            <li>Confirm only the intended job is represented by the schema.</li>
+          </ul>
+
+          <h2>4. Visible/schema parity</h2>
+          <ul>
+            <li>Compare visible title, description, department, location, and status against schema.</li>
+            <li>Flag stale roles, renamed roles, and locations that differ from the ATS source.</li>
+            <li>Confirm applicant-facing content matches the structured data.</li>
+          </ul>
+
+          <h2>5. Remote and location handoff</h2>
+          <ul>
+            <li>For remote jobs, confirm `jobLocationType` and applicant location requirements are intentional.</li>
+            <li>For physical jobs, confirm address country and location details are assigned.</li>
+            <li>Record who owns hybrid, remote, and office-location cleanup.</li>
+          </ul>
+
+          <h2>6. Apply URL and directApply</h2>
+          <ul>
+            <li>Confirm the apply URL is current, public, and accepting applicants.</li>
+            <li>Do not claim directApply unless the applicant flow is actually direct.</li>
+            <li>Flag login walls, stale ATS requisitions, redirects, and closed apply links.</li>
+          </ul>
+
+          <h2>7. Salary, benefits, and owners</h2>
+          <ul>
+            <li>Review salary/benefit fields against visible page copy and owner policy.</li>
+            <li>Name recruiting, ATS, frontend, content, and SEO owners for each finding.</li>
+            <li>Add a fix path and retest date before handoff.</li>
+          </ul>
+
+          <div class="guide-cta">
+            <h2>Generate the handoff</h2>
+            <p>Paste your sample into Job Posting Expiry QA Briefs to turn the checklist into a copyable owner brief.</p>
+            <a class="button primary" href="index.html?utm_source=seo&utm_medium=organic&utm_campaign=jobposting_structured_data_checklist#workflow">Run the JobPosting auditor</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>Job Posting Expiry QA Briefs</span>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </footer>
+  </body>
+</html>
